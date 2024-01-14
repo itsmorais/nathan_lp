@@ -15,7 +15,7 @@ align-items: center;
 justify-content: space-around;
 -webkit-box-shadow: 0px 15px 45px -9px rgb(0 0 0 / 20%);
 -moz-box-shadow: 0px 15px 45px -9px rgb(0 0 0 / 20%);
-box-shadow: 0px 15px 45px -9px rgb(0 0 0 / 20%);
+box-shadow: 0px 15px 45px -9px rgb(0 0 0 / 70%);
     
 h3{
 color: var(--logo-color, #CDB97A);

@@ -39,7 +39,7 @@ export default function Hero() {
 
 
             {/* Whatsapp Button */}
-            <div style={{ marginTop: '75px', marginBottom: '21px' }} >
+            <div style={{ marginTop: '75px' }} >
                 <CTA_button
                     text={"AGENDE SUA CONSULTA"}
                     image={<svg width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">

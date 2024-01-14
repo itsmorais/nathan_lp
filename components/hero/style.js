@@ -4,7 +4,7 @@ import styled from "styled-components"
 export const Container = styled.div`
     text-align: center;
     max-width:90vw ;
-    margin: 83px auto 0;
+    margin: 83px auto 34px;
 p{
     margin: 21px auto;
     font-size: 18px;
