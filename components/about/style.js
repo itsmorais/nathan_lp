@@ -23,6 +23,7 @@ span.swiper-pagination-bullet{
 export const ImageNathan = styled.div`
 
     div{      
+        position: block;
         width: 20rem;
         height: 35rem;
         border-radius: 10%;
