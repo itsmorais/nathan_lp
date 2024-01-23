@@ -1,6 +1,6 @@
 
 import { Container } from "./style"
-export default function Service_card({ title, text="", icon }) {
+export default function Service_card({ title, text = "", icon }) {
 
     let paragrafos = []
 
@@ -15,10 +15,10 @@ export default function Service_card({ title, text="", icon }) {
             <div className="textos">
                 <h1>{title}</h1>
 
-                {paragrafos.map((texto) =>(
-                    <>
-                    <p>{texto}</p>
-                    </>
+                {paragrafos.map((texto, index) => (
+                    <div key={index}>
+                        <p>{texto}</p>
+                    </div>
                 ))}
             </div>
 

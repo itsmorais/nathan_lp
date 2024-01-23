@@ -29,7 +29,7 @@ box-shadow: 0px 4px 10px 0px rgba(218, 165, 32, 0.75);
     width: 100%;
     text-align: left;
   }
-  >p{
+  div>p{
     font-size: 12px;
     text-align: left;
     margin: 13px 0 0 ;
