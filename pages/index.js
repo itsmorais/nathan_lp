@@ -6,6 +6,7 @@ import Blog_Post from "@/components/blog_post"
 import Service_section from "@/components/service_section"
 import Head from "next/head"
 import About from "@/components/about"
+import MetodoNathan from "@/components/metodoNathan"
 export default function home() {
     return (
         <>
@@ -22,6 +23,9 @@ export default function home() {
             <Service_section />
             <Divider />
             <About/>
+            <Divider/>
+            <MetodoNathan/>
+            <Divider/>
             <Whatsapp />
         </>
     )

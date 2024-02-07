@@ -17,7 +17,7 @@ justify-content: space-around;
 -moz-box-shadow: 0px 15px 45px -9px rgb(0 0 0 / 20%);
 box-shadow: 0px 15px 45px -9px rgb(0 0 0 / 70%);
 
-z-index: 1000;
+z-index: 1000   ;
     
 h3{
 color: var(--logo-color, #CDB97A);
