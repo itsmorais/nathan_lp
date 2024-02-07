@@ -29,6 +29,8 @@ html {
     font-weight: 500;
     line-height: 110%;
     text-align: left;
+    letter-spacing: 0.25px;
+    line-height: 115%;
   } 
 
   h1 {
