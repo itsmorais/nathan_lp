@@ -7,6 +7,8 @@ import Service_section from "@/components/service_section"
 import Head from "next/head"
 import About from "@/components/about"
 import MetodoNathan from "@/components/metodoNathan"
+import Exames from "@/components/exames"
+import Faq from "@/components/FAQ"
 export default function home() {
     return (
         <>
@@ -22,10 +24,14 @@ export default function home() {
             <Divider />
             <Service_section />
             <Divider />
-            <About/>
-            <Divider/>
-            <MetodoNathan/>
-            <Divider/>
+            <About />
+            <Divider />
+            <MetodoNathan />
+            <Divider />
+            <Exames />
+            <Divider />
+            <Faq />
+            <Divider />
             <Whatsapp />
         </>
     )

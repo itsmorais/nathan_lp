@@ -4,8 +4,10 @@ const nextConfig = {
     reactStrictMode: true,
     compiler:{
       styledComponents:true,
+      materialUI:true
   
-    }
+    },
+   
   }
   
   module.exports = nextConfig

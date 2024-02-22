@@ -1,17 +1,19 @@
 import './globals.css'
-import { Poppins } from 'next/font/google';
+import { AppCacheProvider } from '@mui/material-nextjs/v13-pagesRouter';
+import { ThemeProvider } from '@mui/material/styles';
+import CssBaseline from '@mui/material/CssBaseline';
+import theme from '@/themes';
 
-const poppins = Poppins({
-  subsets: ['latin'],
-  display: 'swap',
-  variable: '--font-poppins',
-  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900']
-});
 export default function App({ Component, pageProps }) {
 
   return (
-    <main className={poppins.className}>
-      <Component {...pageProps} />
+    <main>
+      <AppCacheProvider {...pageProps}>
+        <ThemeProvider theme={theme}>
+          <CssBaseline/>
+          <Component {...pageProps} />
+          </ThemeProvider>
+      </AppCacheProvider>
     </main>
   )
 
