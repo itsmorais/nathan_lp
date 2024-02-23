@@ -8,7 +8,9 @@ export const Container = styled.div`
 
 
     
-    
+    span{
+        color: #CDB97A;
+    }
     >h2{
         margin-bottom: 13px;
     }
@@ -23,8 +25,7 @@ export const Container = styled.div`
         text-align: left;
 
         margin-bottom:31px;
-
-        
+        word-wrap: break-word;
 
     }
 
@@ -33,13 +34,32 @@ span.swiper-pagination-bullet{
     }
 
     .swiper{
-        border-radius: 10px;
-    box-shadow: 2px 2px 2px 2px rgba(218, 165, 32, 0.75);
-    background: var(--Backgorund-primary, #141212);
+    border-radius: 10px;
+    box-shadow: 0.25px 0.75px 0.75px 0.25px rgba(218, 165, 32, 0.75);
+    background-color:var(--Backgorund-primary, #212529);
 
     }
 .swiper-slide{
     padding: 0 5%;
+}
+
+.instagram{
+    display: flex;
+    width: fit-content;
+    gap: 10px;
+
+    margin: 0 auto;
+
+    p>{
+        width: fit-content;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+h3#relatos{
+    width: 100%;
+    margin: 21px auto 13px;
 }
 `
 
@@ -50,9 +70,11 @@ export const Avatar = styled.div`
 
 
     div.avatar{
-        width: 70%;
-        display: flex;
-        margin: 5% auto;
+        width: 100%;
+        display:flex;
+        gap: 20px;
+
+        margin-bottom:5%;
 
 
     }
@@ -61,7 +83,11 @@ export const Avatar = styled.div`
         width: 4rem;
         height: 4rem;
         border-radius: 50%;
-     
+     >p{
+        width: 100%;
+        font-size: 21px;
+        font-weight: 700;
+     }
 
     }
     div>div{
