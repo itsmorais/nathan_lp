@@ -3,8 +3,7 @@
 const nextConfig = {
     reactStrictMode: true,
     compiler:{
-      styledComponents:true,
-      materialUI:true
+      styledComponents:true
   
     },
    

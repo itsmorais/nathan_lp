@@ -40,7 +40,7 @@ export default function About() {
             >
                 <SwiperSlide >
                     <ImageNathan imageurl="no-bg.png">
-                        <div><div>
+                    <div><div>
                         </div></div>
                     </ImageNathan>
                 </SwiperSlide>

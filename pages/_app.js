@@ -8,7 +8,7 @@ export default function App({ Component, pageProps }) {
 
   return (
     <main>
-      <AppCacheProvider {...pageProps}>
+      <AppCacheProvider>
         <ThemeProvider theme={theme}>
           <CssBaseline/>
           <Component {...pageProps} />

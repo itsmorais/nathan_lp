@@ -9,6 +9,7 @@ import About from "@/components/about"
 import MetodoNathan from "@/components/metodoNathan"
 import Exames from "@/components/exames"
 import Faq from "@/components/FAQ"
+import Testimonials from "@/components/testimonials"
 export default function home() {
     return (
         <>
@@ -31,6 +32,8 @@ export default function home() {
             <Exames />
             <Divider />
             <Faq />
+            <Divider />
+            <Testimonials />
             <Divider />
             <Whatsapp />
         </>
