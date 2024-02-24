@@ -14,7 +14,7 @@ export default function Testimonials({ testimonialsData }) {
 
 
     return (
-        <Container>
+        <Container id="Depoimentos" className="anchor-link">
             <h2> <span>Você está prestes a se juntar a uma comunidade</span> de pessoas que já experimentaram
                 <span> resultados reais.</span>
             </h2>

@@ -1,10 +1,16 @@
+import Link from "next/link"
+import Router from "next/router"
+import LongMenu from "../menu"
 import { Container } from "./style"
 export default function Header() {
+
+    
 
     return (
 
         <Container>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '20px'}}>
+            
+            <div style={{ display: 'flex', alignItems: 'center', gap: '20px'}} onClick={() => Router.push("/#")}>
                 <svg xmlns="http://www.w3.org/2000/svg" width="37" height="51" viewBox="0 0 37 51" fill="none">
                     <mask id="mask0_62_181" style={{ maskType: "luminance" }} maskUnits="userSpaceOnUse" x="16" y="7" width="21" height="37">
                         <path d="M16.4182 7.03107H36.505V43.5079H16.4182V7.03107Z" fill="white" />
@@ -26,13 +32,11 @@ export default function Header() {
                     </g>
                 </svg>
 
+
                 <h3>Nathan Lorena</h3>
             </div>
-            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
-                <path d="M10 20H30" stroke="#CDB97A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                <path d="M10 12H30" stroke="#CDB97A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                <path d="M18 28L30 28" stroke="#CDB97A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-            </svg>
+      
+           <LongMenu/>
 
          
         </Container>

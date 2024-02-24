@@ -2,7 +2,7 @@ import CTA_button from "../CTA_button"
 import { Container, ImageNathan } from "./style"
 export default function Hero() {
     return (
-        <Container>
+        <Container id="Inicio" className="anchor-link">
             <h1>Sua melhor forma nunca esteve tão perto</h1>
             <p>
                 Nutrição também envolve comportamento, preferências, fatores bioquímicos e metabólicos

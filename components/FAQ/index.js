@@ -9,7 +9,7 @@ export default function Faq() {
 
     return (
         <>
-            <h1>Perguntas Frequentes</h1>
+            <h1 id="Perguntas" className="anchor-link">Perguntas Frequentes</h1>
 
 
             <SelectMui

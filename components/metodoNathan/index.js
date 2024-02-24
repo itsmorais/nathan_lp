@@ -4,7 +4,7 @@ import MethodCard from "../method_card"
 import { Container } from "./style"
 export default function MetodoNathan() {
     return (
-        <Container>
+        <Container id="Método" className="anchor-link">
             <h1>Método Nathan Lorena</h1>
 
             <span>100% Individualizado!</span>

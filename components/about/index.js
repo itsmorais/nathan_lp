@@ -12,7 +12,7 @@ export default function About() {
 
 
     return (
-        <Container>
+        <Container id="Sobre" className="anchor">
             <h1>Quem sou eu?</h1>
 
             <p>Me chamo Nathan Lorena, sou nutricionista e fisiculturista.</p>

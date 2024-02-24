@@ -1,7 +1,7 @@
 import { Container } from "./style"
 export default function Blog_Post() {
     return (
-        <Container>
+        <Container id="Falha">
             <h1>Por que a maioria das pessoas falham na dieta</h1>
             <p>
                 Muitas pessoas lutam para alcançar o corpo dos sonhos, seguindo dietas restritivas que causam cansaço, frustração e falta de resultados duradouros.

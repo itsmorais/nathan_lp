@@ -1,7 +1,7 @@
 import { Container } from "./style"
 export default function Exames() {
     return (
-        <Container>
+        <Container id="Exames" className="anchor-link">
             <h1>Pedidos de Exames</h1>
 
 

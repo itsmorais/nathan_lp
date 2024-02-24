@@ -9,7 +9,7 @@ import { Container } from './style';
 
 export default function BasicSelect({ question, answer }) {
   return (
-   <Container>
+   <Container >
 
       <Accordion >
         <AccordionSummary

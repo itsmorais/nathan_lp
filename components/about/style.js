@@ -5,14 +5,17 @@ export const Container = styled.div`
     text-align: center;
     max-width:90vw ;
     margin: 0px auto 34px;
+
     
     >p{
     margin-top: 21px;
     font-size: 18px;
 
-    
+
     
 }
+
+
 
 span.swiper-pagination-bullet{
     background-color: white;
