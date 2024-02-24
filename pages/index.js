@@ -1,16 +1,38 @@
-import Header from "@/components/header"
-import Hero from "@/components/hero"
-import Divider from "@/components/divider"
-import Whatsapp from "@/components/WhatsappIcon"
-import Blog_Post from "@/components/blog_post"
-import Service_section from "@/components/service_section"
-import Head from "next/head"
-import About from "@/components/about"
-import MetodoNathan from "@/components/metodoNathan"
-import Exames from "@/components/exames"
-import Faq from "@/components/FAQ"
-import Testimonials from "@/components/testimonials"
-export default function home() {
+import Header from "@/components/header";
+import Hero from "@/components/hero";
+import Divider from "@/components/divider";
+import Whatsapp from "@/components/WhatsappIcon";
+import Blog_Post from "@/components/blog_post";
+import Service_section from "@/components/service_section";
+import Head from "next/head";
+import About from "@/components/about";
+import MetodoNathan from "@/components/metodoNathan";
+import Exames from "@/components/exames";
+import Faq from "@/components/FAQ";
+import Testimonials from "@/components/testimonials";
+import Footer from "@/components/footer";
+
+export async function getServerSideProps() {
+    try {
+        const res = await fetch('http://localhost:3000/Testimonials.json');
+        const testimonialsData = await res.json();
+
+        return {
+            props: {
+                testimonialsData
+            }
+        };
+    } catch (error) {
+        console.error('Error fetching testimonials data:', error);
+        return {
+            props: {
+                testimonialsData: []
+            }
+        };
+    }
+}
+
+export default function Home({ testimonialsData }) {
     return (
         <>
             <Head>
@@ -33,12 +55,10 @@ export default function home() {
             <Divider />
             <Faq />
             <Divider />
-            <Testimonials />
+            <Testimonials testimonialsData={testimonialsData} />
             <Divider />
+            <Footer />
             <Whatsapp />
         </>
-    )
+    );
 }
-
-
-
