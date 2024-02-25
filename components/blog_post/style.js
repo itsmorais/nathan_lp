@@ -13,5 +13,22 @@ p{
     margin-top: 21px;
     font-size: 18px;
 }
+
+@media(min-width: 720px) {
+
+    width: 80%;
+   
+    h1,p{
+        text-align: left;
+    }
+    h1{
+        font-size: 52px;
+    }
+
+    p{
+        font-size: 24px;
+        
+    }
+}
 `
 
