@@ -4,7 +4,7 @@ import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 import Router from 'next/router';
-
+import { Container } from './style';
 const options = [
     'Inicio',
     'Falha na dieta',
@@ -27,25 +27,28 @@ export default function LongMenu() {
     };
     const handleClose = (value) => {
         setAnchorEl(null);
-        if (typeof(value) == 'string') {
+        if (typeof (value) == 'string') {
             let anchor = value.split(" ")[0]
             Router.push(`/#${anchor}`)
-         
+
         }
     };
 
     return (
         <div>
-            <IconButton
+            <Container>            <IconButton
                 aria-label="more"
                 id="long-button"
                 aria-controls={open ? 'long-menu' : undefined}
                 aria-expanded={open ? 'true' : undefined}
                 aria-haspopup="true"
                 onClick={handleClick}
+
             >
-                <MoreVertIcon />
+                <MoreVertIcon
+                />
             </IconButton>
+            </Container>
             <Menu
                 id="long-menu"
                 MenuListProps={{

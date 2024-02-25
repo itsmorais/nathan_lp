@@ -5,8 +5,8 @@ export default function Whatsapp() {
 
     return (
         <Link
-            href="https:/wa.me/5512981324203?text=Ol%C3%A1%2C%20visitei%20seu%20site%20e%20tenho%20interesse%20em%20Agendar%20Uma%20Consulta"
-            target="_blank">
+        href="https://wa.me/5512981324203?text=Ol%C3%A1%2C%20visitei%20seu%20site%20e%20tenho%20interesse%20em%20Agendar%20Uma%20Consulta"
+        target="_blank">
 
             <Container>
                 <svg style={{ position: 'fixed', bottom: 0, right: 0, margin: '1rem' }} xmlns="http://www.w3.org/2000/svg" width="51" height="51" viewBox="0 0 51 51" fill="none">
