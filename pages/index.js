@@ -14,7 +14,7 @@ import Footer from "@/components/footer";
 
 export async function getServerSideProps() {
     try {
-        const res = await fetch('http://localhost:3000/Testimonials.json');
+        const res = await fetch('https://nathan-lp.vercel.app/static/Testimonials.json');
         const testimonialsData = await res.json();
 
         return {
