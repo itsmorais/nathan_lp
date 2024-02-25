@@ -4,8 +4,9 @@ import { Container } from "./style"
 export default function Service_section() {
 
     return (
-        <Container id="Serviços">I
+        <Container id="Serviços">
             {/* PONTO "." É O SEPARADOR */}
+            
             <h1>A consultoria é para você que deseja:</h1>
             <Service_card title={"HIPERTROFIA"} key={"HIPERTROFRIA"}
                 text={"Texto genérico sobre hipertrofia.Outro texto genérico sobre hipertrofia um pouco maior dessa vez.Texto diferente sobre hipertrofia"}
