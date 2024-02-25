@@ -26,11 +26,10 @@ html {
   p {
     margin: auto;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 400;
     text-align: left;
     letter-spacing: 0.25px;
-    line-height: 115%;
-
+    line-height: 1.3;
    
   }
 

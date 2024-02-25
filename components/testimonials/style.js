@@ -27,16 +27,23 @@ export const Container = styled.div`
         margin-bottom:31px;
         word-wrap: break-word;
 
+        color: #2E2667;
+
+        
+
     }
 
 span.swiper-pagination-bullet{
-    background-color: rgba(218, 165, 32, 0.75);
+    background-color:          #2E2667;
+
     }
 
     .swiper{
     border-radius: 10px;
-    box-shadow: 0.25px 0.75px 0.75px 0.25px rgba(218, 165, 32, 0.75);
-    background-color:var(--Backgorund-primary, #212529);
+    box-shadow: 0.25px 0.75px 0.75px 0.25px #2E2667;
+
+    background-color:#e5ece8;
+
 
     }
 .swiper-slide{
@@ -50,16 +57,22 @@ span.swiper-pagination-bullet{
 
     margin: 0 auto;
 
+
+
     p>{
         width: fit-content;
         margin: 0;
         padding: 0;
+
+
     }
 }
 
 h3#relatos{
     width: 100%;
     margin: 21px auto 13px;
+
+    
 }
 `
 
@@ -85,8 +98,11 @@ export const Avatar = styled.div`
         border-radius: 50%;
      >p{
         width: 100%;
-        font-size: 21px;
-        font-weight: 700;
+        font-size: 1.3rem;
+        font-weight: 400;
+        line-height: 1.3;
+
+        color: #2E2667;
      }
 
     }
