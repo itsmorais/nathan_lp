@@ -7,9 +7,13 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { Container } from './style';
 
 
-export default function BasicSelect({ question, answer }) {
+export default function BasicSelect({ question, answer = "" }) {
+  let answers = []
+  if (answer.includes("\n")) {
+    answers = answer.split("\n")
+  }
   return (
-   <Container >
+    <Container >
 
       <Accordion >
         <AccordionSummary
@@ -22,10 +26,20 @@ export default function BasicSelect({ question, answer }) {
         </AccordionSummary>
         <AccordionDetails>
           <Typography color={"#CDB97A"} >
-            {answer}
+            {answers.length > 1 ?
+              answers.map((res) => (
+                <>
+                  <p key={res}><span>{res}</span></p>
+                  <br />
+
+                </>
+
+              ))
+              : <p><span>{answer}</span></p>
+            }
           </Typography>
         </AccordionDetails>
       </Accordion>
-      </Container>
-    );
+    </Container>
+  );
 }

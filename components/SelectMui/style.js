@@ -20,6 +20,8 @@ p{
     font-size: 18px;
     text-align: left;
     margin: 0 auto;
+
+    
 }
 
 span{
