@@ -2,11 +2,25 @@ import Router from "next/router"
 import LongMenu from "../menu"
 import { Container } from "./style"
 export default function Header() {
+    const options = [
+        'Inicio',
+        'Serviços',
+        'Sobre mim',
+        'Método Nathan',
+        'Exames',
+        'Perguntas Frequentes',
+        'Depoimentos',
+    ];
+
+    function handleClick(selectedItem) {
+        let anchorLink = selectedItem.split(" ")[0]
+        Router.push(`/#${anchorLink}`)
+    }
     return (
 
         <Container>
-            
-            <div style={{ display: 'flex', alignItems: 'center', gap: '20px'}} onClick={() => Router.push("/#")}>
+
+            <div id="logo" style={{ display: 'flex', alignItems: 'center', gap: '20px' }} onClick={() => Router.push("/#")}>
                 <svg xmlns="http://www.w3.org/2000/svg" width="37" height="51" viewBox="0 0 37 51" fill="none">
                     <mask id="mask0_62_181" style={{ maskType: "luminance" }} maskUnits="userSpaceOnUse" x="16" y="7" width="21" height="37">
                         <path d="M16.4182 7.03107H36.505V43.5079H16.4182V7.03107Z" fill="white" />
@@ -31,10 +45,17 @@ export default function Header() {
 
                 <h3>Nathan Lorena</h3>
             </div>
-      
-           <LongMenu/>
+            <div id="mobileMenu">
+                <LongMenu />
+            </div>
 
-         
+            <nav id="menu">
+                {options.map((menu) => (
+                    <li onClick={() => handleClick(menu)} key={menu}>{menu}</li>
+                ))}
+            </nav>
+
+
         </Container>
 
 

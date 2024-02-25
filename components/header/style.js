@@ -19,6 +19,9 @@ box-shadow: 0px 15px 45px -9px rgb(0 0 0 / 70%);
 
 z-index: 1000   ;
     
+nav#menu{
+    display: none;
+}
 h3{
 color: var(--logo-color, #CDB97A);
 text-align: center;
@@ -29,5 +32,40 @@ cursor: pointer;
 svg{
     cursor: pointer;
 }
+@media(min-width: 720px) {
+    height: 2.5rem;
 
+    #logo{
+        width: 30%;
+        
+    }
+    #logo h3{
+        
+        font-size: 13px;
+    }
+
+    #logo svg{
+        width: 2rem;
+        height: 2rem;
+    }
+
+    #mobileMenu{
+        display: none;
+    }
+
+    nav#menu{
+        display: flex;
+        justify-content: space-evenly;
+        list-style: none;
+
+        cursor: pointer;
+
+        width: 100vw;
+        font-size: 11px ;
+    }
+
+    nav#menu li:hover{
+        color: #CDB97A;
+    }
+}
 ` 
