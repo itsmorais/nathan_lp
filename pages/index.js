@@ -41,7 +41,7 @@ export default function Home({ testimonialsData }) {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
             </Head>
             <Header />
-            <Hero/>
+            <Hero />
             <Divider />
             <Blog_Post />
             <Divider />
@@ -59,6 +59,6 @@ export default function Home({ testimonialsData }) {
             <Divider />
             <Footer />
             <Whatsapp />
-        </>
+        </ >
     );
 }

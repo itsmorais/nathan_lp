@@ -1,11 +1,7 @@
-import Link from "next/link"
 import Router from "next/router"
 import LongMenu from "../menu"
 import { Container } from "./style"
 export default function Header() {
-
-    
-
     return (
 
         <Container>

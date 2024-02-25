@@ -20,6 +20,7 @@ const ITEM_HEIGHT = 200;
 
 export default function LongMenu() {
     const [anchorEl, setAnchorEl] = React.useState(null);
+    const [element, setElement] = React.useState("")
     const open = Boolean(anchorEl);
     const handleClick = (event) => {
         setAnchorEl(event.currentTarget);
@@ -28,6 +29,7 @@ export default function LongMenu() {
     const handleClose = (value) => {
         setAnchorEl(null);
         if (typeof (value) == 'string') {
+            setElement(value)
             let anchor = value.split(" ")[0]
             Router.push(`/#${anchor}`)
 
@@ -48,28 +50,31 @@ export default function LongMenu() {
                 <MoreVertIcon
                 />
             </IconButton>
+
+                <Menu
+                    id="long-menu"
+                    MenuListProps={{
+                        'aria-labelledby': 'long-button',
+                    }}
+                    anchorEl={anchorEl}
+                    open={open}
+                    onClose={handleClose}
+                    PaperProps={{
+                        style: {
+                            maxHeight: ITEM_HEIGHT * 4.5,
+                            width: '25ch',
+                        },
+                    }}
+                >
+                    {options.map((option) => (
+                        <MenuItem key={option} selected={option === 'Pyxis'} onClick={() => handleClose(option)}>
+                            {option == element ?
+                                <p style={{ textDecoration: 'underline', color: ' #CDB97A' }}>{option}</p>
+                                : <p>{option}</p>}
+                        </MenuItem>
+                    ))}
+                </Menu>
             </Container>
-            <Menu
-                id="long-menu"
-                MenuListProps={{
-                    'aria-labelledby': 'long-button',
-                }}
-                anchorEl={anchorEl}
-                open={open}
-                onClose={handleClose}
-                PaperProps={{
-                    style: {
-                        maxHeight: ITEM_HEIGHT * 4.5,
-                        width: '20ch',
-                    },
-                }}
-            >
-                {options.map((option) => (
-                    <MenuItem key={option} selected={option === 'Pyxis'} onClick={(e) => handleClose(option)}>
-                        {option}
-                    </MenuItem>
-                ))}
-            </Menu>
         </div>
     );
 }
