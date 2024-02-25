@@ -14,6 +14,28 @@ svg{
     margin: 13px 0;
     cursor: pointer;
 }
+#Whatsapp{
+    display: none;
+}
+
+@media(min-width: 720px) {
+    margin: 4rem auto 34px;
+
+    display: flex;
+    width: 80%;
+
+    #mobileWhatsapp{
+        display: none;
+    }
+    #Whatsapp{
+        display: block;
+        text-align: left;
+    }
+
+    h1,p{
+        text-align: left;
+    }
+}
 
 `
 
@@ -49,6 +71,16 @@ export const ImageNathan = styled.div`
         
     }
 
+    @media(min-width: 720px) {
+        div{      
+        width: 20rem;
+        height: 20rem;
+        border-radius: 50%;
+        margin: 0 auto;
+        background: linear-gradient(180deg, rgba(18, 13, 2, 0.05) 0%, rgba(18, 13, 2, 0.25) 28.7%, rgba(18, 13, 2, 0.50) 54.69%, rgba(18, 13, 2, 0.75) 77.09%, #120D02 100%);
+
+    }
+    }
  
 
 `

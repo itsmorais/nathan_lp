@@ -2,13 +2,26 @@ import CTA_button from "../CTA_button"
 import { Container, ImageNathan } from "./style"
 export default function Hero() {
     return (
-        <Container id="Inicio" className="anchor-link">
+        <Container id="Inicio">
+            <div>
             <h1>Sua melhor forma nunca esteve tão perto</h1>
             <p>
                 Nutrição também envolve comportamento, preferências, fatores bioquímicos e metabólicos
                 são levados em conta para que você alcance resultados mesmo com uma rotina corrida.
             </p>
 
+
+             {/* Whatsapp Button Desktop*/}
+             <div  id="Whatsapp">
+                <CTA_button
+                    text={"AGENDE SUA CONSULTA"}
+                    image={<svg width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20.7505 18C20.5005 17.875 18.8755 17.125 18.6255 17C18.3755 16.875 18.1255 16.875 17.8755 17.125C17.6255 17.375 17.1255 18.125 16.8755 18.375C16.7505 18.625 16.5005 18.625 16.2505 18.5C15.3755 18.125 14.5005 17.625 13.7505 17C13.1255 16.375 12.5005 15.625 12.0005 14.875C11.8755 14.625 12.0005 14.375 12.1255 14.25C12.2505 14.125 12.3755 13.875 12.6255 13.75C12.7505 13.625 12.8755 13.375 12.8755 13.25C13.0005 13.125 13.0005 12.875 12.8755 12.75C12.7505 12.625 12.1255 11.125 11.8755 10.5C11.7505 9.62502 11.5005 9.62502 11.2505 9.62502C11.1255 9.62502 10.8755 9.62502 10.6255 9.62502C10.3755 9.62502 10.0005 9.87502 9.87549 10C9.12549 10.75 8.75049 11.625 8.75049 12.625C8.87549 13.75 9.25049 14.875 10.0005 15.875C11.3755 17.875 13.1255 19.5 15.2505 20.5C15.8755 20.75 16.3755 21 17.0005 21.125C17.6255 21.375 18.2505 21.375 19.0005 21.25C19.8755 21.125 20.6255 20.5 21.1255 19.75C21.3755 19.25 21.3755 18.75 21.2505 18.25C21.2505 18.25 21.0005 18.125 20.7505 18ZM23.8755 6.62502C19.0005 1.75002 11.1255 1.75002 6.25049 6.62502C2.25049 10.625 1.50049 16.75 4.25049 21.625L2.50049 28L9.12549 26.25C11.0005 27.25 13.0005 27.75 15.0005 27.75C21.8755 27.75 27.3755 22.25 27.3755 15.375C27.5005 12.125 26.1255 9.00002 23.8755 6.62502ZM20.5005 24.125C18.8755 25.125 17.0005 25.75 15.0005 25.75C13.1255 25.75 11.3755 25.25 9.75049 24.375L9.37549 24.125L5.50049 25.125L6.50049 21.375L6.25049 21C3.25049 16 4.75049 9.75002 9.62549 6.62502C14.5005 3.50002 20.7505 5.12502 23.7505 9.87502C26.7505 14.75 25.3755 21.125 20.5005 24.125Z" fill="#222020" />
+                    </svg>} />
+            </div>
+
+
+            </div>
             <ImageNathan>
                 <div><div> </div><svg xmlns="http://www.w3.org/2000/svg" width="37" height="51" viewBox="0 0 37 51" fill="none">
                     <mask id="mask0_62_181" style={{ maskType: "luminance" }} maskUnits="userSpaceOnUse" x="16" y="7" width="21" height="37">
@@ -38,8 +51,8 @@ export default function Hero() {
             </ImageNathan>
 
 
-            {/* Whatsapp Button */}
-            <div style={{ marginTop: '75px' }} >
+            {/* Whatsapp Button mobile*/}
+            <div style={{ marginTop: '75px' }}  id="mobileWhatsapp">
                 <CTA_button
                     text={"AGENDE SUA CONSULTA"}
                     image={<svg width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">

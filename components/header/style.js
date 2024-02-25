@@ -35,8 +35,9 @@ svg{
 @media(min-width: 720px) {
     height: 2.5rem;
 
-    #logo{
+    div#logo{
         width: 30%;
+        gap: 5px;
         
     }
     #logo h3{
