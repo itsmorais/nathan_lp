@@ -17,7 +17,7 @@ export async function getStaticProps() {
         const res = await fetch('https://nathan-lp.vercel.app/static/Testimonials.json');
         const testimonialsData = await res.json();
 
-        testimonialsData.sort((a,b) => b.content.length - a.content.length);
+        testimonialsData.sort((a, b) => b.testimonial.length - a.testimonial.length);
 
         return {
             props: {
