@@ -8,8 +8,6 @@ import 'swiper/css/navigation';
 import CTA_button_Square from "../CTA_button_Square";
 
 
-
-
 export default function Testimonials({ testimonialsData }) {
 
 

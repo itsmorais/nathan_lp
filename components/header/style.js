@@ -33,16 +33,17 @@ svg{
     cursor: pointer;
 }
 @media(min-width: 720px) {
-    height: 2.5rem;
+    height: 3rem;
 
     div#logo{
-        width: 30%;
-        gap: 5px;
+        width: 23rem;
+        justify-content: flex-end;
+
+        margin: 0 auto;
         
     }
     #logo h3{
-        
-        font-size: 13px;
+        font-size: 21px;
     }
 
     #logo svg{
@@ -61,8 +62,9 @@ svg{
 
         cursor: pointer;
 
-        width: 100vw;
-        font-size: 11px ;
+        width: 80vw;
+        font-size: 13px ;
+        font-weight: 500;
     }
 
     nav#menu li:hover{

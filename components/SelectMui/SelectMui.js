@@ -27,9 +27,9 @@ export default function BasicSelect({ question, answer = "" }) {
         <AccordionDetails>
           <Typography color={"#CDB97A"} >
             {answers.length > 1 ?
-              answers.map((res) => (
+              answers.map((res,index) => (
                 <>
-                  <p key={res}><span>{res}</span></p>
+                  <p key={res}><span key={index}>{res}</span></p>
                   <br />
 
                 </>
