@@ -30,10 +30,10 @@ box-shadow: 0px 4px 10px 0px rgba(218, 165, 32, 0.75);
     text-align: left;
   }
   div>p{
-    font-size: 12px;
+    font-size: 15px;
     text-align: left;
     margin: 13px 0 0 ;
-    font-weight: bold;
+    font-weight: 500;
   
   }
 }
