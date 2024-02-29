@@ -22,12 +22,11 @@ p{
         text-align: left;
     }
     h1{
-        font-size: 52px;
-    }
+        font-size: calc(10px + 4vw);
+        line-height: 102%;    }
 
     p{
-        font-size: 24px;
-        
+        font-size: calc(5px + 1.5vw);
     }
 }
 `

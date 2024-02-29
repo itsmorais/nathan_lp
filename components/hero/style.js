@@ -19,11 +19,13 @@ svg{
 }
 
 @media(min-width: 720px) {
-    margin: 6rem auto 34px;
+    margin: 6vw auto 10vw;
 
     display: flex;
-    width: 80%;
+    width: 80vw;
     div#containerElements{
+        width: 50vw;
+        margin: auto;
        
     }
     #mobileWhatsapp{
@@ -50,12 +52,14 @@ svg{
     }
 
     h1{
-        font-size: 52px;
+        font-size: calc(10px + 4vw);
+        line-height: 102%;
 
     }
 
     p{
-        font-size: 24px;
+        font-size: calc(5px + 1.5vw);
+        margin-top: 3vw;
         
     }
 }
@@ -63,7 +67,6 @@ svg{
 `
 
 export const ImageNathan = styled.div`
-
     div{      
         width: 20rem;
         height: 20rem;
@@ -96,8 +99,8 @@ export const ImageNathan = styled.div`
 
     @media(min-width: 720px) {
         div{      
-        width: 20rem;
-        height: 20rem;
+        width: 30vw;
+        height: 30vw;
         border-radius: 50%;
         margin: 1.5rem 0 auto;
         background: linear-gradient(180deg, rgba(18, 13, 2, 0.05) 0%, rgba(18, 13, 2, 0.25) 28.7%, rgba(18, 13, 2, 0.50) 54.69%, rgba(18, 13, 2, 0.75) 77.09%, #120D02 100%);
@@ -105,7 +108,7 @@ export const ImageNathan = styled.div`
     }
 
     h3,h4{
-        font-size: 21px;
+        font-size:2vw;
     }
     }
  
