@@ -8,7 +8,7 @@ export const Container = styled.div`
     margin: 0px auto 34px;
 
     
-    >p{
+   p{
     margin-top: 21px;
     font-size: 18px;
 }
