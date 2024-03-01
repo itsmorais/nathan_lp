@@ -24,6 +24,7 @@ span.swiper-pagination-bullet{
 
     @media(min-width: 720px) {
         margin: 2vw auto 5vw;
+        width: 80vw;
 
         section#desktopSection{
             display: flex;
@@ -37,8 +38,7 @@ span.swiper-pagination-bullet{
         div#desktop{
             display: block;
         }
-        div#desktopTextSection{
-        }
+      
 
          h1{
         font-size: calc(10px + 4vw);
@@ -51,6 +51,9 @@ span.swiper-pagination-bullet{
         margin-top: 1vw;
         text-align: left;
         
+    }
+    #desktopTextSection{
+        width: 200vw;
     }
  
     }
@@ -80,7 +83,7 @@ export const ImageNathan = styled.div`
         div{
             width: 20vw;
             height:40vw;
-            margin: 3vw auto;
+            margin: 4vw auto;
         }
     }
 
