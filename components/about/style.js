@@ -2,6 +2,7 @@
 import styled from "styled-components"
 
 export const Container = styled.div`
+
     text-align: center;
     max-width:90vw ;
     margin: 0px auto 34px;
@@ -10,17 +11,49 @@ export const Container = styled.div`
     >p{
     margin-top: 21px;
     font-size: 18px;
-
-
-    
 }
-
+    div#desktop{
+        display:none;
+    }
 
 
 span.swiper-pagination-bullet{
     background-color: white;
     }
 
+
+    @media(min-width: 720px) {
+        margin: 2vw auto 5vw;
+
+        section#desktopSection{
+            display: flex;
+            margin: 1vw auto;
+            align-items: flex-start;
+            
+        }
+        div#mobile{
+            display: none;
+        }
+        div#desktop{
+            display: block;
+        }
+        div#desktopTextSection{
+        }
+
+         h1{
+        font-size: calc(10px + 4vw);
+        line-height: 102%;
+
+    }
+
+    p{
+        font-size: calc(5px + 1.5vw);
+        margin-top: 1vw;
+        text-align: left;
+        
+    }
+ 
+    }
 `
 
 export const ImageNathan = styled.div`
@@ -35,13 +68,22 @@ export const ImageNathan = styled.div`
 
     }
     div>div{
-        background-image: url(${({imageurl}) => imageurl}) ;
+        background-image: url(${({ imageurl }) => imageurl}) ;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
         margin-bottom: -4.5rem;
 
     }
+
+    @media(min-width: 720px) {
+        div{
+            width: 20vw;
+            height:40vw;
+            margin: 3vw auto;
+        }
+    }
+
   
     
 

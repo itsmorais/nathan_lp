@@ -10,11 +10,13 @@ import 'swiper/css/navigation';
 
 export default function About() {
 
-
     return (
-        <Container id="Sobre" className="anchor">
+        <Container id="Sobre">
             <h1>Quem sou eu?</h1>
 
+            <section id="desktopSection">
+
+        <div id="desktopTextSection">
             <p>Me chamo Nathan Lorena, sou nutricionista e fisiculturista.</p>
 
             <p>Apaixonado pela nutrição há mais de 10 anos, me especializei nesta área com o objetivo de ajudar as pessoas a alcançarem seus objetivos sem precisar
@@ -22,6 +24,14 @@ export default function About() {
 
             <p>Trabalhando com a Nutrição esportiva e comportamental, prezo por uma nutrição humanizada e individualizada. Olho para a saúde dos meus
                 pacientes como um todo, desde a parte externa à interna. </p>
+            <div id="desktop">
+                <p>Acredito em uma nutrição baseada na vida real, conciliando o planejamento alimentar à sua rotina. </p>
+
+                <p>Analisando as dificuldades dos meus pacientes durante minha trajetória, desenvolvi um método de trabalho próprio. Nele, aplico flexibilidade alimentar,
+                    prazer em comer e modulação dos ambientes externo e interno para trazer resultados expressivos. </p>
+            </div>
+            </div>
+
 
             <Swiper spaceBetween={50}
                 speed={1000}
@@ -40,7 +50,7 @@ export default function About() {
             >
                 <SwiperSlide >
                     <ImageNathan imageurl="no-bg.png">
-                    <div><div>
+                        <div><div>
                         </div></div>
                     </ImageNathan>
                 </SwiperSlide>
@@ -74,13 +84,14 @@ export default function About() {
 
 
             </Swiper>
+            </section>
+            <div id="mobile">
+                <p>Acredito em uma nutrição baseada na vida real, conciliando o planejamento alimentar à sua rotina. </p>
 
+                <p>Analisando as dificuldades dos meus pacientes durante minha trajetória, desenvolvi um método de trabalho próprio. Nele, aplico flexibilidade alimentar,
+                    prazer em comer e modulação dos ambientes externo e interno para trazer resultados expressivos. </p>
 
-            <p>Acredito em uma nutrição baseada na vida real, conciliando o planejamento alimentar à sua rotina. </p>
-
-            <p>Analisando as dificuldades dos meus pacientes durante minha trajetória, desenvolvi um método de trabalho próprio. Nele, aplico flexibilidade alimentar,
-                prazer em comer e modulação dos ambientes externo e interno para trazer resultados expressivos. </p>
-
+            </div>
 
         </Container>
     )
