@@ -32,7 +32,7 @@ cursor: pointer;
 svg{
     cursor: pointer;
 }
-@media(min-width: 720px) {
+@media(min-width: 900px) {
     height: 3rem;
 
     div#logo{

@@ -13,7 +13,7 @@ export default function Testimonials({ testimonialsData }) {
     const [slidesPerView, setsSidesPerView] = useState(1);
     const [mobileSlider,setMobileSlider] = useState(false)
     useEffect(() => {
-        if (window.innerWidth && window.innerWidth > 700) {
+        if (window.innerWidth && window.innerWidth > 900) {
             setsSidesPerView(2)
             setMobileSlider(true)
         }

@@ -39,7 +39,7 @@ box-shadow: 0px 4px 10px 0px rgba(218, 165, 32, 0.75);
 }
 
 
-@media(min-width: 720px) {
+@media(min-width: 900px) {
   >div.textos h1{
   font-size: 1vw;
 }

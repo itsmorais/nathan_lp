@@ -34,13 +34,15 @@ export const Container = styled.div`
     }
 
 span.swiper-pagination-bullet{
-    background-color:          #2E2667;
+    background-color:black;
 
     }
 
     .swiper{
     border-radius: 10px;
-    box-shadow: 0.25px 0.75px 0.75px 0.25px #2E2667;
+    box-shadow: 0px 4px 10px 0px rgba(218, 165, 32, 0.75);
+    border: 0.2px solid #000;
+    border-radius:2%;
 
     background-color:#e5ece8;
 
@@ -48,6 +50,7 @@ span.swiper-pagination-bullet{
     }
 .swiper-slide{
     padding: 0 5%;
+ 
 }
 
 .instagram{
@@ -79,7 +82,7 @@ h3#relatos{
 
 
 
-@media(min-width: 720px) {
+@media(min-width: 900px) {
    h2{
     font-size: calc(21px + 1vw);
     margin-bottom: 0;

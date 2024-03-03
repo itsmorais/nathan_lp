@@ -22,7 +22,7 @@ span.swiper-pagination-bullet{
     }
 
 
-    @media(min-width: 720px) {
+    @media(min-width: 900px) {
         margin: 2vw auto 5vw;
         width: 80vw;
 
@@ -79,7 +79,7 @@ export const ImageNathan = styled.div`
 
     }
 
-    @media(min-width: 720px) {
+    @media(min-width: 900px) {
         div{
             width: 20vw;
             height:40vw;

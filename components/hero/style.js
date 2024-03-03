@@ -18,7 +18,7 @@ svg{
     display: none;
 }
 
-@media(min-width: 720px) {
+@media(min-width: 900px) {
     margin: 6vw auto 10vw;
 
     display: flex;
@@ -97,7 +97,7 @@ export const ImageNathan = styled.div`
         
     }
 
-    @media(min-width: 720px) {
+    @media(min-width: 900px) {
         div{      
         width: 30vw;
         height: 30vw;

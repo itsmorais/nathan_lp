@@ -10,7 +10,7 @@ export const Container = styled.div`
 
 
 
-    @media(min-width: 720px) {
+    @media(min-width: 900px) {
         h1{
         font-size: calc(10px + 3vw);
         line-height: 102%;
