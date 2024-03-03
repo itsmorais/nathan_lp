@@ -27,7 +27,7 @@ export default function Footer() {
                 </svg>
                 <h3><span>Nathan Lorena</span></h3>
             </div>
-            <p>©2023 Nathan Lorena.</p>
+            <p>©2024 Nathan Lorena.</p>
             <p>Todos os direitos reservados.</p>
 
             <div id="socials">
