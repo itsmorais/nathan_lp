@@ -66,6 +66,8 @@ span.swiper-pagination-bullet{
 
 
     }
+
+  
 }
 
 h3#relatos{
@@ -74,6 +76,66 @@ h3#relatos{
 
     
 }
+
+
+
+@media(min-width: 720px) {
+   h2{
+    font-size: calc(21px + 1vw);
+    margin-bottom: 0;
+   }
+   h3{
+    font-size: calc(13px + 1vw);
+
+   }
+div.instagram{
+    margin-bottom: 2vw;
+
+}
+   div.instagram p{
+    font-size: calc(8px + 1vw);
+
+   }
+   svg#instaIcon{
+    width: calc(8px + 2vw);
+    height: calc(8px + 2vw);
+    
+   }
+    .swiper{
+        background-color: transparent;
+        box-shadow: none;
+    }
+
+    .swiper-wrapper{
+        align-items: flex-end;
+    }
+    
+        .swiper-slide{
+
+
+            background-color: white;
+            margin: 3vw 0vw 3vw 0vw;
+            box-shadow: 0px 4px 10px 0px rgba(218, 165, 32, 0.75);
+            border: 0.2px solid #000;
+            border-radius:2%;
+
+
+        }
+        span.swiper-pagination-bullet{
+        display: none;
+
+    }
+    .swiper-button-prev{
+        color: black;
+    }
+
+    .swiper-button-next{
+        color: black;
+        
+
+    }
+   
+    }
 `
 
 export const Avatar = styled.div`
@@ -113,5 +175,14 @@ export const Avatar = styled.div`
         background-position: center;
 
     }
+
+
+    @media(min-width: 720px) {
+        div.avatar{
+        align-items: center;
+        }
+    
+    }
+
 
 `

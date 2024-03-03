@@ -1,5 +1,4 @@
-import CTA_button from "../CTA_button"
-import CTA_button_Square from "../CTA_button_Square"
+import CTAButtonSquare from "../CTAButtonSquare"
 import MethodCard from "../method_card"
 import { Container } from "./style"
 export default function MetodoNathan() {
@@ -20,13 +19,13 @@ export default function MetodoNathan() {
 
             <h2>Forma de atendimento</h2>
 
-            <MethodCard>
+            <MethodCard >
                 <p>Todo o acompanhamento é 100% online.</p>
                 <p>As consultas são feitas através de chamada
                     de vídeo e possuem duração média de 1h30. Cada planejamento alimentar é enviado em até 24h.</p>
             </MethodCard>
 
-            <h2>Temos dois tipos de atendimentos</h2>
+            <h2 id="tiposAtendimento">Temos dois tipos de atendimentos</h2>
             <MethodCard><p>Consulta única/avulsa</p></MethodCard>
             <MethodCard><p>Pacote de 3 consultas que serão marcadas conforme a necessidade de cada pessoa,
                 e não necessariamente a cada 15 dias ou mês.</p></MethodCard>
@@ -34,7 +33,7 @@ export default function MetodoNathan() {
             <p>O contato pós-consulta é feito pelo WhatsApp. Fico disponível durante todo o período contratado para responder
                 dúvidas que possam surgir, dar feedbacks e fazer possíveis reajustes.</p>
 
-                <CTA_button_Square text={"AGENDAR AGORA"}/>
+                <CTAButtonSquare text={"AGENDAR AGORA"}/>
         </Container>
     )
 }

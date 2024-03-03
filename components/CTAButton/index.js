@@ -1,7 +1,7 @@
 
 import { Container } from "./style"
 import Link from "next/link"
-export default function CTA_button({ text, image }) {
+export default function CTAButton({ text, image }) {
 
     return (
 

@@ -31,5 +31,12 @@ margin: 2% 0;
 }
 
 
+@media(min-width: 720px) {
+    margin: 1vw auto;
+>h3{
+    font-size: calc(15px + 1vw);
+}
+}
+
 
 ` 

@@ -10,18 +10,23 @@ h1{
     font-size: 27px;
     margin-bottom: 10px;
 }
-p{
-    margin-top: 21px;
-    font-size: 18px;
-}
 
-span{
-    font-size: 18px;
-    color: #CDB97A;
-}
 
-h2{
-    margin: 13px auto;
+
+
+
+@media(min-width: 720px) {
+    width: 80vw;
+
+    >h1#Perguntas{
+        font-size: calc(10px + 4vw);
+        line-height: 102%;
+        margin-bottom: 2vw;
+
+    }
+
+ 
+
 }
 `
 

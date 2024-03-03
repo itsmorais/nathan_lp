@@ -1,15 +1,11 @@
 
 import SelectMui from "../SelectMui/SelectMui"
-
-
-
-
-
+import { Container } from "./style"
 export default function Faq() {
 
     return (
-        <>
-            <h1 id="Perguntas" className="anchor-link">Perguntas Frequentes</h1>
+        <Container>
+            <h1 id="Perguntas">Perguntas Frequentes</h1>
 
 
             <SelectMui
@@ -44,6 +40,6 @@ export default function Faq() {
                 question={"Qual forma de pagamento?"}
                 answer="Pix ou parcelamento através de bancos que oferecem o serviço, como o Picpay e o Nubank."
             />
-        </>
+        </Container>
     )
 }

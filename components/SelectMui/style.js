@@ -29,6 +29,12 @@ span{
     color: #CDB97A;
 }
 
+@media(min-width: 720px) {
+p{
+    font-size: calc(13px + 0.5  vw);
+    
+}
 
+}
 `
 

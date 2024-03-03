@@ -1,4 +1,4 @@
-import CTA_button from "../CTA_button"
+import CTA_button from "../CTAButton"
 import { Container, ImageNathan } from "./style"
 export default function Hero() {
     return (

@@ -23,5 +23,42 @@ span{
 h2{
     margin: 13px auto;
 }
+
+
+
+
+
+
+
+
+@media(min-width: 720px) {
+    width: 80vw;
+    
+    h1{
+        font-size: calc(10px + 4vw);
+        line-height: 102%;
+
+    }
+
+    p,span{
+        font-size: calc(5px + 1.5vw);
+        margin-top: 1vw;
+        text-align: left;
+        
+    }
+
+    h2{
+        font-size: calc(10px + 2vw);
+        margin-top: 1vw;
+
+    }
+    #tiposAtendimento{
+        margin-top: 3vw;
+
+    }
+
+
+    }
+
 `
 

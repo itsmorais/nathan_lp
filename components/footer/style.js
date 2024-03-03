@@ -35,5 +35,29 @@ div#socials{
     gap: 20px;
 }
 
+@media(min-width: 720px) {
+    width: 80vw;
+    
+
+    div#socials{
+        justify-content: flex-end;
+        margin-top: calc(-10px - 3vw);
+    }
+
+    h1{
+        font-size: calc(10px + 4vw);
+        line-height: 102%;
+
+    }
+
+    p{
+        font-size: calc(5px + 0.5vw);
+        margin-top: 1vw;
+        text-align: left;
+        
+    }
+
+}
+
 `
 
