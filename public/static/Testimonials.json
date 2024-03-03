@@ -40,7 +40,7 @@
         "testimonial": "Tô IMPRESSIONADAAAA!!!! Porque a gordura sai e a gente nem percebe que estava carregando tudo isso kkkkk"
     },
     {
-        "photoPath": "Jessica.jpg",
+        "photoPath": "default.png",
         "userName": "Jéssica",
         "testimonial": "Iniciei com 71 Kilos dia 18/04/2023 e hoje 02/05/2023 já estou com 68!"
     },
@@ -48,6 +48,17 @@
         "photoPath": "julio.jpg",
         "userName": "Júlio César",
         "testimonial": "Perdi 3KG seguindo a dieta que me permite comer hambúrguer com pão integral,alface tomate e ricota, isso porque não tive tempo de ir treinar ainda!"
+    },
+    {
+        "photoPath": "default.png",
+        "userName": "Mayara Sá",
+        "testimonial": "Só para avisar que ontem me pesei e estou com 5Kg a menos, noto meu rosto mais aifnado também! Estou igual aquele meme 'Tô me sentindo Adorável' rsrsrsrs"
+    },
+    {
+        "photoPath": "Rafael.jpg",
+        "userName": "Rafael Mello",
+        "testimonial": "Fala Nathan estou a 3 meses seguindo a dieta, perdi bastante medida e 7Kg foi embora. Bastante satisfeito com o processo! Só não melhorei mais por conta de mim mesmo que as vezes acabo saindo da linha. Vamo pra cima que até o final do ano de 2023 chego no meu propósito, Um abraço!"
     }
+
 
 ]
