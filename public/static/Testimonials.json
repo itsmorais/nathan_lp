@@ -18,5 +18,36 @@
         "photoPath": "Andrea.jpg",
         "userName": "Andréa Barreto",
         "testimonial": "Comecei com 81,5Kg... Já cheguei nos 77Kg aqui. E isso comendo pra caramba e coisas que eu gosto, já virou rotina mesmo! Está sendo uma bruta reeducação alimentar, pra vida mesmo... sem vontade nenhuma de abandonar... fora os treinos que aumentei todas as cargas."
+    },
+    {
+        "photoPath": "Diego.jpg",
+        "userName": "Diego Nascimento",
+        "testimonial": "Nathan eu já consigo ver bastante diferença no meu corpo, visivelmente estou maior e meu percentual de gordura não acho que tenha aumentado tanto desde o mês passado.Estou muito animado com os resultados até aqui!"
+    },
+    {
+        "photoPath": "Ricardo.jpg",
+        "userName": "Ricardo Mota",
+        "testimonial": "Fala Nathan, acho que está dando certo o acompanhamento com a dieta, meu chefe até perguntou o que eu estava fazendo pois estou mais forte.Estamos no caminho certo Obrigado!"
+    },
+    {
+        "photoPath": "default.png",
+        "userName": "Fernando",
+        "testimonial": "Comecei com 68 KG e agora cheguei aos 73Kg, melhorei 5 kg da composição corporal"
+    },
+    {
+        "photoPath": "Mariana Maciel.jpg",
+        "userName": "Mariana M",
+        "testimonial": "Tô IMPRESSIONADAAAA!!!! Porque a gordura sai e a gente nem percebe que estava carregando tudo isso kkkkk"
+    },
+    {
+        "photoPath": "Jessica.jpg",
+        "userName": "Jéssica",
+        "testimonial": "Iniciei com 71 Kilos dia 18/04/2023 e hoje 02/05/2023 já estou com 68!"
+    },
+    {
+        "photoPath": "julio.jpg",
+        "userName": "Júlio César",
+        "testimonial": "Perdi 3KG seguindo a dieta que me permite comer hambúrguer com pão integral,alface tomate e ricota, isso porque não tive tempo de ir treinar ainda!"
     }
+
 ]
