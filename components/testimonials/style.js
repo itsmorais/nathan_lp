@@ -181,6 +181,10 @@ export const Avatar = styled.div`
         div.avatar{
         align-items: center;
         }
+
+        div>p{
+            text-align: left;
+                }
     
     }
 
